@@ -122,7 +122,8 @@ def generate_batch(batch_size, poems_vec, word_to_int):
 def run_training():
     # 处理数据集
     # poems_vector, word_to_int, vocabularies = process_poems2('./tangshi.txt')
-    poems_vector, word_to_int, vocabularies = process_poems1('./poems.txt')
+    # poems_vector, word_to_int, vocabularies = process_poems1('./poems.txt')
+    poems_vector, word_to_int, vocabularies = process_poems1('./chap6_RNN/tangshi_for_pytorch/poems.txt')
     # 生成batch
     print("finish  loadding data")
     BATCH_SIZE = 100
